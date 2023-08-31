@@ -626,7 +626,7 @@
                         {
                          "name":"bellSound",
                          "type":"string",
-                         "value":".\/public\/door_bells.wav"
+                         "value":"door_bells.wav"
                         }, 
                         {
                          "name":"soundRadius",
