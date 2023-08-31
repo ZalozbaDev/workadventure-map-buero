@@ -465,7 +465,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":157.871977240398,
                  "id":13,
                  "name":"jitsiChillZone",
@@ -491,13 +490,13 @@
                          "value":1
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":32,
                  "y":96
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":14,
                  "name":"silentZone",
@@ -508,13 +507,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":224,
                  "x":640,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":224,
                  "id":16,
                  "name":"jitsiMeetingRoom",
@@ -540,13 +539,13 @@
                          "value":1
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":768,
                  "y":224
                 }, 
                 {
-                 "class":"area",
                  "height":64,
                  "id":18,
                  "name":"to-conference",
@@ -557,13 +556,13 @@
                          "value":"conference.tmj#from-office"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":0,
                  "y":512
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":19,
                  "name":"from-conference",
@@ -574,13 +573,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":32,
                  "x":64,
                  "y":544
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":20,
                  "name":"my_door",
@@ -607,13 +606,13 @@
                          "value":"opened_door"
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":369.217638691323,
                  "y":272.432432432432
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":26,
                  "name":"my_bell",
@@ -627,7 +626,7 @@
                         {
                          "name":"bellSound",
                          "type":"string",
-                         "value":".\/src\/door_bells.wav"
+                         "value":".\/public\/door_bells.wav"
                         }, 
                         {
                          "name":"soundRadius",
@@ -635,17 +634,18 @@
                          "value":100
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":372.802275960171,
                  "y":163.698435277383
                 }, 
                 {
-                 "class":"",
                  "height":32.2617354196302,
                  "id":27,
                  "name":"bell_button",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":29.8719772403983,
                  "x":350.099573257468,
@@ -825,7 +825,7 @@
          "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.0",
  "tileheight":32,
  "tilesets":[
         {
@@ -989,6 +989,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":31
 }
