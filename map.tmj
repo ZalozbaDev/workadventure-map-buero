@@ -650,6 +650,23 @@
                  "width":29.8719772403983,
                  "x":350.099573257468,
                  "y":198.349928876245
+                }, 
+                {
+                 "class":"area",
+                 "height":96.7852062588904,
+                 "id":29,
+                 "name":"silentZone",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":63.3285917496444,
+                 "x":255.704125177809,
+                 "y":477.951635846373
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -795,8 +812,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":70,
- "nextobjectid":28,
+ "nextlayerid":71,
+ "nextobjectid":30,
  "orientation":"orthogonal",
  "properties":[
         {
